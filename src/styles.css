@@ -146,7 +146,6 @@ footer {
     width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
     padding: 60px 100px;
 }
@@ -162,6 +161,7 @@ footer {
     font-weight: 900;
     font-family: var(--ff-sub-section-title);
     color: #222222;
+    margin-top: 50px;
 }
 
 .about-me-text {
@@ -286,9 +286,13 @@ footer {
         align-items: center;
     }
 
+    .sub-section-title {
+        margin-top: 30px;
+    }
+
     .project-card {
         width: 80vw;
-        height: 90vh;
+        height: 75vw;
     }
 
     .project-container {
@@ -299,7 +303,7 @@ footer {
     }
 
     .sub-section-alternative {
-        height: 3200px;
+        height: 360vw;
     }
 
     .nav-list {
@@ -325,5 +329,14 @@ footer {
     .sub-section, 
     .sub-section-alternative {
         padding: 25px;
+    }
+
+    .project-card {
+        width: 80vw;
+        height: 87vw;
+    }
+
+    .sub-section-alternative {
+        height: 430vw;
     }
 }
