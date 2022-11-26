@@ -252,6 +252,15 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
+    .hero-text {
+        margin-left: 30px;
+    }
+
+    .sub-section, 
+    .sub-section-alternative {
+        padding: 25px;
+    }
+
     .logo {
         display: none;
     }
@@ -326,11 +335,6 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .sub-section, 
-    .sub-section-alternative {
-        padding: 25px;
-    }
-
     .project-card {
         width: 80vw;
         height: 87vw;
