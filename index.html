@@ -15,16 +15,20 @@
         <script src="https://kit.fontawesome.com/0606a76447.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&family=Poppins:wght@400;600;700&family=Rajdhani&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200&family=Poppins:wght@400;600;700&family=Rajdhani&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <section class="hero">
             <nav class="nav-bar">
+                <div class="logo">
+                    <p class="logo-text">YZ</p>
+                </div>
                 <ul class="nav-list" id="nav-list">
-                    <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item"><a class="nav-link button" href="#about-me">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link button" href="#projects">My Projects</a></li>
+                    <li class="nav-item"><a class="nav-link button" href="src/Yichen_Zhao_Resume.pdf" target="_blank">My Resume</a></li>
+                    <li class="nav-item"><a class="nav-link button" href="#contact">Contact Me</a></li>
                 </ul>
                 <button class="hamburger" id="hamburger"><i class="fas fa-bars"></i></button>
             </nav>
@@ -33,9 +37,6 @@
                 <div class="hero-text">
                     <h1 class="section-title">Hi, I am <div>Yichen Zhao</div></h1>
                     <h3 class="section-subtitle">Data Scientist | Machine Learning Engineer | Front-end Developer | <div>and more</div></h3>
-                    <a class="nav-link" href="src/Yichen_Zhao_Resume.pdf" target="_blank"><div class="button">
-                        My Resume
-                    </div></a>
                 </div>
 
                 <div class="socials">
@@ -68,29 +69,33 @@
             <div class="project-container">
                 <div class="project-card"><a class="project-link" href="https://github.com/SHENSHENZYC/Game-Result-Prediction" target="_blank">
                     <img class="project-cover-img" src="src/images/game_result_prediction.png" alt="cover image of game result prediction project">
-                    <h3>Game Result Prediction</h3>
+                    <h3>Predicting the winner and winning rate for an ongoing League of Legends game</h3>
+                    <p class="project-card-footer">Supervised Learning | XGBoost</p>
                 </a></div>
 
                 <div class="project-card"><a class="project-link" href="https://github.com/SHENSHENZYC/linear-regression-analysis-on-life-expectancy" target="_blank">
                     <img class="project-cover-img" src="src/images/linear_regression_analysis.png" alt="cover image of linear regression analysis project">
-                    <h3>Analysis on Life Expectancy</h3>
+                    <h3>A statistical analysis using linear regression model on life expectancy</h3>
+                    <p class="project-card-footer">Statistical Inference | Linear Regression</p>
                 </a></div>
 
                 <div class="project-card"><a class="project-link" href="https://github.com/SHENSHENZYC/Health-Plan-by-Machine-Learning" target="_blank">
                     <img class="project-cover-img" src="src/images/weekly_health_diet.png" alt="cover image of a weekly health diet project">
-                    <h3>A Weekly Health Diet</h3>
+                    <h3>Building a nutrition-balanced weekly diet using unsupervised learning techniques</h3>
+                    <p class="project-card-footer">Unsupervised Learning | PCA | K-Means</p>
                 </a></div>
 
                 <div class="project-card"><a class="project-link" href="https://www.overleaf.com/read/fmkmypytjrpb" target="_blank">
                     <img class="project-cover-img" src="src/images/facial_expression_recognition.png" alt="cover image of facial expression recognition project">
-                    <h3>Recognition of Facial Expression</h3>
-                </div>
+                    <h3>Building a facial expression recognition model using Convolutional Neural Network</h3>
+                    <p class="project-card-footer">Deep Learning | CNN</p>
+                </a></div>
             </div>
         </section>
 
         <footer id="contact">
             <h2 class="footer-title">Contact Me</h2>
-            <p><a class="contact-link" href="mailto:alexyczhao@gmail.com">alexyczhao@gmail.com</p>
+            <p><a class="contact-link" href="mailto:alexyczhao@gmail.com">alexyczhao@gmail.com</a></p>
         </footer>
 
         <script src="src/app.js"></script>
