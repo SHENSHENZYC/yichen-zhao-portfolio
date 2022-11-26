@@ -142,7 +142,7 @@ footer {
 }
 
 .sub-section-alternative {
-    height: 1550px;
+    height: 1450px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -188,7 +188,7 @@ strong {
 
 .project-card {
     width: 40vw;
-    height: 40vw;
+    height: 45vw;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -222,71 +222,6 @@ strong {
     grid-row-gap: 50px;
 }
 
-@media only screen and (max-width: 1000px) {
-    .logo {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-        border: 0;
-        background-color: transparent;
-        color: white;
-        font-size: 30px;
-        margin: 20px;
-        align-self: end;
-    }
-
-    .hero {
-        height: 130vh;
-    }
-
-    .hero-text {
-        margin-top: 60px;
-    }
-
-    .sub-section {
-        height: 1000px;
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .project-card {
-        width: 500px;
-        height: 52vw;
-    }
-
-    .project-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .sub-section-alternative {
-        height: 2600px;
-    }
-
-    .nav-list {
-        display: none;
-        margin: 0;
-    }
-
-    .nav-bar {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-self: space-between;
-    }
-
-    .nav-list.show {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        row-gap: 20px;
-    }
-}
-
 .project-cover-img {
     width: 100%;
 }
@@ -313,4 +248,81 @@ footer {
 .contact-link {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+    .logo {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: end;
+    }
+
+    .hero {
+        height: 130vh;
+    }
+
+    .hero-text {
+        margin-top: 60px;
+    }
+
+    .sub-section, 
+    .sub-section-alternative {
+        padding: 40px;
+    }
+
+    .sub-section {
+        height: 1000px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 80vw;
+        height: 90vh;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .sub-section-alternative {
+        height: 3200px;
+    }
+
+    .nav-list {
+        display: none;
+        margin: 0;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-self: space-between;
+    }
+
+    .nav-list.show {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .sub-section, 
+    .sub-section-alternative {
+        padding: 25px;
+    }
 }
