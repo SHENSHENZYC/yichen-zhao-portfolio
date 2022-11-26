@@ -142,10 +142,11 @@ footer {
 }
 
 .sub-section-alternative {
-    height: 1650px;
+    height: 125vw;
     width: 100vw;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     padding: 60px 100px;
 }
