@@ -19,7 +19,7 @@ body {
 }
 
 section {
-    height: 500px;
+    height: min-content;
     background-color: #ffffff;
     border: 1px solid black;
 }
@@ -142,12 +142,12 @@ footer {
 }
 
 .sub-section-alternative {
-    height: 125vw;
+    height: min-content;
     width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 60px 100px;
+    padding: 20px 100px;
 }
 
 .information {
@@ -188,8 +188,8 @@ strong {
 }
 
 .project-card {
-    width: 40vw;
-    height: 45vw;
+    width: 36vw;
+    height: min-content;
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -276,7 +276,7 @@ footer {
     }
 
     .hero {
-        height: 130vh;
+        height: min-content;
     }
 
     .hero-text {
@@ -289,7 +289,6 @@ footer {
     }
 
     .sub-section {
-        height: 1000px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -301,7 +300,6 @@ footer {
 
     .project-card {
         width: 80vw;
-        height: 75vw;
     }
 
     .project-container {
@@ -309,10 +307,6 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
-    }
-
-    .sub-section-alternative {
-        height: 360vw;
     }
 
     .nav-list {
@@ -331,16 +325,5 @@ footer {
         flex-direction: column;
         justify-content: start;
         row-gap: 20px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .project-card {
-        width: 80vw;
-        height: 87vw;
-    }
-
-    .sub-section-alternative {
-        height: 430vw;
     }
 }
